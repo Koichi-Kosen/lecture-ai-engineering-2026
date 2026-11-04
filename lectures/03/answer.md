@@ -16,9 +16,9 @@
   「第2回の確認問題を出して」のように、
   復習用の問題を求められたときに使う。
   """
-  # 1. load_glossary() から lecture が一致する用語を集める
-  # 2. 1 つ選ぶ（random.choice ）
-  # 3. 問題と答えを文字列で返す（ json.dumps など 
+  1. load_glossary() から lecture が一致する用語を集める
+  2. 1 つ選ぶ（random.choice ）
+  3. 問題と答えを文字列で返す（ json.dumps など )
 
 ## 宿題
 
