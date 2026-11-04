@@ -24,6 +24,7 @@
 
 - 取り組んだレベル：基礎
 - やったこと：INSTRUCTIONS から「必ず search_glossary で用語集を確認する」を消して、検索せずに答えるようになるかどうかを確認。
-行を消す
 - 結果：agentは自分の判断でsearch_glossaryを使用したようで、回答結果はほぼ同じ。
+　消去前は[usage] RunUsage(cost=Decimal('0.0008763'), details={'text_prompt_tokens': 1196}, input_text_tokens=1196, input_tokens=1196, output_tokens=207, requests=2, tool_calls=2)
+　消去後は[usage] RunUsage(cost=Decimal('0.0008044'), details={'text_prompt_tokens': 1148}, input_text_tokens=1148, input_tokens=1148, output_tokens=184, requests=2, tool_calls=2)
 - 気づき・疑問：agentのインストラクションを変更しても、自律的に用語集を見にいくことがあり、より厳密に書き換える必要がある。
